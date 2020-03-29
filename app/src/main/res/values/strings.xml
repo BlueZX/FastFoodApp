@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FastFood App</string>
+    <string name="sandwitches">sandwiches</string>
+    <string name="about">Sobre nosotros</string>
+    <string name="cost">Precio:</string>
+    <string name="buy">Comprar</string>
+    <string name="we_sandwich">Nuestros sandwiches</string>
+    <string name="description">Descripción:</string>
+    <string name="about_detail">Somos una fuente de soda familiar, fundada hace 20 años. FastFood fue pensada bajo la idea de realizar un local de atención rápida, para que todas las familias pudieran visitar, con precios accesibles y en un grato ambiente.</string>
+    <string name="about_detail_2">Desde un comienzo nuestros valores han sido la transparencia, calidad, las tradiciones, el respeto a los clientes y a los procesos de preparación. Por este motivo cada una de nuestras cocinas permanece a la vista del público.</string>
+</resources>

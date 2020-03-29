@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="65dp"
+        android:background="@color/black_1"
+        android:orientation="vertical"
+        tools:context=".Activity.SandwichDetailActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/black_1"
+            android:paddingVertical="16dp"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iv_detail_sandwich"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="7dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="60dp"
+            android:paddingHorizontal="25dp"
+            android:background="@drawable/c_shape"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_name_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="title"
+                    android:textSize="32dp"
+                    android:textColor="@color/blue"
+                    android:textAlignment="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description"
+                    android:layout_marginTop="25dp"
+                    android:textSize="25dp"
+                    android:textColor="@color/blue"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:id="@+id/tv_description_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:text="@string/about_detail"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cost"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/tv_cost_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1000$"
+                        android:textSize="30dp"
+                        android:textColor="@color/green" />
+                </LinearLayout>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:paddingVertical="10dp"
+                        android:paddingHorizontal="35dp"
+                        android:background="@color/green"
+                        android:textColor="@color/white"
+                        android:text="@string/buy"
+                        />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
